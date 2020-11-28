@@ -1,0 +1,225 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+.testcase {
+  color: #fff;
+}
+
+body {
+  position: relative;
+  background: #191765;
+}
+
+section,
+.top-nav {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.top-nav {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  padding-top: 1rem;
+  position: fixed;
+  top: 0;
+  right: 10vw;
+}
+
+.top-nav li a {
+  color: #fff;
+}
+
+.my-name,
+.my-intro {
+  width: 40vw;
+  margin: 0 auto;
+  color:#fff;
+}
+
+.my-intro {
+  padding: 2.3rem;
+  margin-top: 2rem;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #b3bac5;
+}
+
+.my-name {
+  margin-top: 10rem;
+  font-family: Roboto;
+}
+
+.skill-box {
+  width: 30vw;
+  margin: 0 auto;
+}
+
+.skill h3 {
+  color: #9390ff;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 1.7rem;
+}
+
+.my-name h1 {
+  /* color: #1aff66; */
+  color: #9390ff;
+  font-size: 4rem;
+}
+
+.my-name h2 {
+  margin-top: 2rem;
+}
+
+.skill {
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+}
+
+.my-work h3 {
+  margin-top: 3rem;
+  font-size: 2rem;
+  line-height: 1.7rem;
+  color: #9390ff;
+}
+
+.image-box {
+  width: 25rem;
+  height: 15rem;
+  background-color: #fff;
+}
+
+.project-box {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-between;
+}be
+
+.inner-box {
+  margin-left: 3rem;
+}
+
+.inner-box a {
+  height: 2rem;
+  width: 8rem;
+  background-color: #9390ff;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  font-family: Roboto;
+  text-decoration:none;
+  color: #fff;
+}
+
+.inner-box h4 {
+  color: #9390ff;
+}
+
+.inner-box ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 0.9rem;
+  color: #fff;
+  display: flex;
+}
+
+.inner-box ul li {
+  padding: 0.3rem;
+}
+
+.inner-box p {
+  width: 45vw;
+  color: #b3bac5;
+  font-size: 1.1rem;
+  font-family: Roboto;
+}
+
+.contact-me h4 {
+  margin-top: 6rem;
+  color: #9390ff;
+  font-family: Roboto;
+}
+
+.contact-message {
+  width: 30rem;
+  font-size: 1.rem;
+  color: #fff;
+  font-family: Roboto;
+  margin: 2rem auto 1rem auto;
+}
+
+.name-box {
+  display: flex;
+}
+
+form {
+  width: 30rem;
+  margin: 2rem auto 0 auto;
+}
+
+.last_name {
+  margin-left: 1rem;
+}
+
+.email {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.text-box {
+  height: 5rem;
+}
+
+.submit-box {
+  color: #fff;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.submit-btn {
+  padding: 0.2rem 0.8rem;
+  background: #9390ff;
+  color: #fff;
+}
+
+.social-icon {
+  width: 25rem;
+  height: 3rem;
+  margin: 2rem auto 0 auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+.social-icon a,
+.social-icon p {
+  color: #fff;
+  padding: 0.2rem;
+}
+
+.social-icon span {
+  padding-left: 0.3rem;
+}
+
+#project-one {
+  display: none;
+}
+
+/* Pop up */
+
+#project-one {
+  /* dispay: bllock; */
+  flex-direction: column;
+  width: 60rem;
+  margin: 4rem auto;
+  /* position: relative; */
+  /* transition: all 5s ease-in-out; */
+} 

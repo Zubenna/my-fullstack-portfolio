@@ -8,14 +8,13 @@ body {
   background: #191765;
 }
 
-section,
-.top-nav {
+section {
   width: 80vw;
   margin: 0 auto;
   padding: 0;
 }
 
-.top-nav {
+.navbar-expand-md {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -24,10 +23,20 @@ section,
   padding-top: 1rem;
   position: fixed;
   top: 0;
-  right: 10vw;
+  right: 7vw;
 }
 
-.top-nav li a {
+nav {
+  width: 80vw;
+}
+
+.navbar-brand {
+  color: #b3bac5;
+  font-family: Roboto;
+  padding: 0;
+}
+
+nav li a {
   color: #fff;
   background: #191765;
 }
@@ -70,10 +79,6 @@ section,
   font-size: 3.5rem;
 }
 
-.my-name span {
-  /* color: #1aff66; */
-}
-
 .my-name h2 {
   margin-top: 1.5rem;
 }
@@ -82,10 +87,6 @@ section,
   display: flex;
   color: #fff;
   flex-direction: column;
-}
-
-.middle-icon {
-  /* padding-bottom: 2rem; */
 }
 
 .my-work h3 {
@@ -108,10 +109,6 @@ section,
   display: flex;
   margin-top: 3rem;
   justify-content: space-between;
-}
-
-.inner-box {
-  /* margin-left: 3rem; */
 }
 
 .right-margin {
@@ -194,8 +191,11 @@ form {
   text-align: center;
 }
 
-.submit-btn {
+.submit-box {
   padding: 0.2rem 0.8rem;
+}
+
+.submit-box input {
   background: #9390ff;
   color: #fff;
 }
@@ -306,3 +306,165 @@ form {
 .live-button .fab {
   padding: 0 0.3rem;
 }
+
+.blur-circle-one,
+.blur-circle-two,
+.blur-circle-four,
+.blur-circle-five {
+  position: absolute;
+  background: #EDECFF;
+  width: 8rem;
+  height: 8rem;
+  filter: blur(2rem);
+}
+
+.blur-circle-one {
+  left: 4rem;
+  top: 2rem;
+}
+
+.blur-circle-two {
+  right: 5rem;
+  top: 15rem;
+}
+
+.blur-circle-four {
+  bottom: 30rem;
+  left: 3rem;
+}
+
+.blur-circle-five {
+  bottom: 3rem;
+  right: 4rem;
+}
+
+.my-work-mobile {
+  display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767.9px) {
+  section {
+    width: 90vw;
+  }
+
+  .my-work {
+    display: none;
+  }
+
+  .my-work-mobile {
+    display: block;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    background: #191765;
+    /* width: 90vw; */
+  }
+
+  .navbar-toggler {
+    background: #edecff;
+  }
+
+  .navbar-toggler-icon {
+    background: #9390ff;
+  }
+
+  .my-name,
+  .my-intro {
+    width: 90vw;
+    /* margin-left: 5rem; */
+  }
+
+  ul li a {
+    font-size: 1rem;
+  }
+
+  .my-intro p {
+    font-size: 1rem;
+  }
+
+  .my-name h1 {
+    font-size: 2.3rem;
+    padding-top: 2rem;
+  }
+
+  .my-name h3 {
+    font-size: 1.3rem;
+  }
+
+  .blur-circle-one,
+  .blur-circle-two,
+  .blur-circle-four,
+  .blur-circle-five {
+    width: 3rem;
+    height: 3rem;
+    filter: blur(1rem);
+  }
+
+  .skill-box {
+    width: 70vw;
+    /* margin-left: 7rem; */
+    /* text-align: cen3remter; */
+  }
+
+  .skill-box h3 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .project-box {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .social-icon a,
+  .social-icon p {
+    padding: 0.3rem;
+    font-size: 0.8rem;
+  }
+
+  .inner-box p {
+    text-align: center;
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .inner-box,
+  .tech-used {
+    /* text-align: center; */
+  }
+
+  .my-work-mobile h3 {
+    text-align: left;
+    color: #fff;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .contact-message {
+    width: 60vw;
+    margin: 0 auto;
+  }
+
+  form {
+    width: 20rem;
+  }
+
+  .project-box img {
+    width: 28rem;
+    height: 15rem;
+    text-align: center;
+    /* margin-left: 4rem; */
+  }
+}
+
+
+ 
+
+
+
+

@@ -10,8 +10,13 @@
     <title>Nnamdi Profile</title>
   </head>
   <body>
-    <nav class="top-nav"> 
-      <ul class="nav justify-content-end">
+  <nav class="navbar navbar-expand-md">
+    <a class="navbar-brand" href="index.html">Zubenna</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+      <ul class="nav">
         <li class="nav-item">
           <a class="nav-link active" href="#about-me">About</a>
         </li>
@@ -22,9 +27,11 @@
           <a class="nav-link" href="#contact-me">Contact</a>
         </li>
       </ul>
-    </nav>
-    <main>
+    </div>  
+  </nav>
+  <main>
     <section class='about-me' id='about-me'>
+        <div class="blur-circle-one"></div>
         <div class='my-name text-center'>
           <h1>Nnamdi <span>Emelu</span></h1>
           <h3>Fullstack Web-developer</h3>
@@ -36,6 +43,7 @@
           </p>
         </div>
         <div class="skill-box">
+          <div class="blur-circle-two"></div>
         <div class="skill">
           <h3>Language</h3>
           <div class='skill-item'>
@@ -65,6 +73,7 @@
         </div>
     </section>
     <section class="my-work" id='my-work'>
+      <div class="blur-circle-three"></div>
      <h3>My Recent Projects</h3>
      <div class='project-box'>
        <div class="image-box-one">
@@ -118,6 +127,7 @@
       </div>
     </div>
     <div class='project-box'>
+      <div class="blur-circle-four"></div>
       <div class="inner-box right-margin">
         <h4>Group Our Transportation Mobile App</h4>
         <p>This project entails building a mobile application where a user or group logs all the distances 
@@ -134,6 +144,79 @@
       </div>
       <div class='image-box-four'>
         <img src="images/Group-our-transport.png" alt='Group Our Transportation App' />
+      </div>
+    </div>
+    </section>
+    <section class="my-work-mobile">
+     <h3>My Recent Projects</h3>
+     <div class='project-box'>
+       <div class="image-box-one">
+         <img src="images/online-concert-page.png" alt='Online Conference Page' />
+       </div>
+       <div class="inner-box">
+         <h4>Online Concert web Page</h4>
+         <p>This project is a front end design of an online music concert. It gives information about a music concert 
+           that will be taken place at a particular city. Participants can read about the program and register.
+         </p>
+         <ul class='tech-used'>
+           <li>HTML5</li>
+           <li>CSS3</li>
+           <li>Bootstrap4</li>
+         </ul>
+         <a href='popup.html#project-one' alt = 'show details'>See Details</a>
+       </div>
+     </div>
+     <div class='project-box'>
+      <div class='image-box-two'>
+        <img src="images/Tic-tact-toe-game.png" alt='Tic-Tac-Toe Game' />
+      </div>
+      <div class="inner-box">
+        <h4>Tic Tac Toe Game</h4>
+        <p>This project is about coding the Tic Tac Toe Game using the concept of
+          object oriented programming
+        </p>
+        <ul class='tech-used'>
+          <li>Ruby</li>
+          <li>Rspec</li>
+          <li>Command line</li>
+        </ul>
+        <a href='popup.html#project-two' alt = 'show details'>See Details</a>
+      </div>
+    </div>
+    <div class='project-box'>
+      <div class='image-box-three'>
+        <img src="images/Telegram-bot.png" alt='Weather Bot' />
+      </div>
+      <div class="inner-box">
+        <h4>Weather Forcaster Telegram bot</h4>
+        <p>This is a telegram bot that gives information about current weather 
+          and daily weather forecast for a selected city.
+        </p>
+        <ul class='tech-used'>
+          <li>Ruby</li>
+          <li>Rspec</li>
+          <li>Telegram bot API</li>
+        </ul>
+        <a href='popup.html#project-three' alt = 'show details'>See Details</a>
+      </div>
+    </div>
+    <div class='project-box'>
+      <div class='image-box-four'>
+        <img src="images/Group-our-transport.png" alt='Group Our Transportation App' />
+      </div>
+      <div class="inner-box">
+        <h4>Group Our Transportation Mobile App</h4>
+        <p>This project entails building a mobile application where a user or group logs all the distances 
+          covered in Kilometer(KM) within a particular period for various means of transportations used
+        </p>
+        <ul class='tech-used'>
+          <li>Ruby on Rails</li>
+          <li>CSS3</li>
+          <li>Bootstrap4</li>
+          <li>Capybara, rspec</li>
+          <li>Heroku</li>
+        </ul>
+        <a href='popup.html#project-four' alt = 'show details'>See Details</a>
       </div>
     </div>
     </section>
@@ -154,6 +237,7 @@
           <input type="submit" value="Send Email">
         </div>
       </form>
+      <div class="blur-circle-five"></div>
     </section>
     <section>
       <div class="social-icon middle-icon">

@@ -3,10 +3,6 @@ body, html {
   margin: 0;
 }
 
-.testcase {
-  color: #fff;
-}
-
 body {
   position: relative;
   background: #191765;
@@ -33,6 +29,7 @@ section,
 
 .top-nav li a {
   color: #fff;
+  background: #191765;
 }
 
 .my-name,
@@ -43,17 +40,16 @@ section,
 }
 
 .my-intro {
-  padding: 2.3rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-family: Roboto;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 1.25rem;
+  line-height: 2rem;
   color: #b3bac5;
 }
 
 .my-name {
-  margin-top: 10rem;
+  margin-top: 5rem;
   font-family: Roboto;
 }
 
@@ -70,19 +66,26 @@ section,
 }
 
 .my-name h1 {
-  /* color: #1aff66; */
   color: #9390ff;
-  font-size: 4rem;
+  font-size: 3.5rem;
+}
+
+.my-name span {
+  /* color: #1aff66; */
 }
 
 .my-name h2 {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 .skill {
   display: flex;
   color: #fff;
   flex-direction: column;
+}
+
+.middle-icon {
+  /* padding-bottom: 2rem; */
 }
 
 .my-work h3 {
@@ -92,20 +95,27 @@ section,
   color: #9390ff;
 }
 
-.image-box {
+.image-box-one img,
+.image-box-two img,
+.image-box-three img,
+.image-box-four img  {
   width: 25rem;
   height: 15rem;
-  background-color: #fff;
+  object-fit: scale-down;
 }
 
 .project-box {
   display: flex;
-  margin-top: 5rem;
+  margin-top: 3rem;
   justify-content: space-between;
-}be
+}
 
 .inner-box {
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
+}
+
+.right-margin {
+  margin-right: 3rem;
 }
 
 .inner-box a {
@@ -191,7 +201,7 @@ form {
 }
 
 .social-icon {
-  width: 25rem;
+  width: 30rem;
   height: 3rem;
   margin: 2rem auto 0 auto;
   display: flex;
@@ -202,24 +212,97 @@ form {
 .social-icon a,
 .social-icon p {
   color: #fff;
-  padding: 0.2rem;
+  padding: 0.5rem;
 }
 
 .social-icon span {
   padding-left: 0.3rem;
 }
 
-#project-one {
+#project-one,
+#project-two,
+#project-three,
+#project-four {
   display: none;
+  width: 80%;
+  margin: 3rem auto;
+  background:rgba(255, 255, 255, 0.16);
+  padding: 0 2rem 2rem 2rem;
 }
 
 /* Pop up */
 
-#project-one {
-  /* dispay: bllock; */
-  flex-direction: column;
-  width: 60rem;
-  margin: 4rem auto;
-  /* position: relative; */
-  /* transition: all 5s ease-in-out; */
-} 
+#project-one:target,
+#project-two:target,
+#project-three:target,
+#project-four:target {
+  display: block;
+}
+
+.close-box {
+  height: 3rem;
+  display: block;
+}
+
+.close {
+  display: inline-block;
+  padding: 0.3rem 0;
+  text-decoration: none;
+  font-size: 1.4rem;
+  cursor:pointer;
+}
+
+#project-one img,
+#project-two img,
+#project-three img,
+#project-four img  {
+  width: 100%;
+  height: 17rem;
+  object-fit: scale-down;
+}
+
+.pop-inner-box {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  padding-top: 1rem;
+  text-align: center;
+}
+.pop-tech-used {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.pop-tech-used li {
+  padding: 0.3rem;
+  border-left: 0.1px solid #fff;
+  border-right: 0.1px solid #fff;
+  line-height: 0.6rem;
+}
+
+.live-button {
+  padding-top: 1rem;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.live-button a {
+  height: 2.2rem;
+  padding: 0.3rem 0.5rem;
+  font-family: Roboto;
+  color: #fff;
+  background: #7d73fc;
+  text-decoration: none;
+}
+
+.live-button .fa,
+.live-button .fab {
+  padding: 0 0.3rem;
+}

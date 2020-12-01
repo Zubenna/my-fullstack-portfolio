@@ -66,8 +66,9 @@
     </section>
     <section class="my-work" id='my-work'>
      <h3>My Recent Projects</h3>
-     <div class='project-box' id='project-one'>
-       <div class='image-box'>
+     <div class='project-box'>
+       <div class="image-box-one">
+         <img src="images/online-concert-page.png" alt='Online Conference Page' />
        </div>
        <div class="inner-box">
          <h4>Online Concert web Page</h4>
@@ -79,59 +80,60 @@
            <li>CSS3</li>
            <li>Bootstrap4</li>
          </ul>
-         <a href='#project-one' alt = 'show details'>See Details</a>
+         <a href='popup.html#project-one' alt = 'show details'>See Details</a>
        </div>
      </div>
      <div class='project-box'>
-      <div class="inner-box">
-        <h4>Weather Forcaster Telegram bot</h4>
-        <p>The aim of this project is to make a telegram bot. This helps you automate the reception
-          of information about current weather and daily weather forecast for a selected city just by typing 
-          the name of the city.
+      <div class="inner-box right-margin">
+        <h4>Tic Tac Toe Game</h4>
+        <p>This project is about coding the Tic Tac Toe Game using the concept of
+          object oriented programming
         </p>
         <ul class='tech-used'>
           <li>Ruby</li>
           <li>Rspec</li>
-          <li>Telegram API</li>
+          <li>Command line</li>
         </ul>
-        <a href='' alt = 'show details'>See Details</a>
+        <a href='popup.html#project-two' alt = 'show details'>See Details</a>
       </div>
-      <div class='image-box'>
+      <div class='image-box-two'>
+        <img src="images/Tic-tact-toe-game.png" alt='Tic-Tac-Toe Game' />
       </div>
     </div>
     <div class='project-box'>
-      <div class='image-box'>
+      <div class='image-box-three'>
+        <img src="images/Telegram-bot.png" alt='Weather Bot' />
       </div>
       <div class="inner-box">
+        <h4>Weather Forcaster Telegram bot</h4>
+        <p>This is a telegram bot that gives information about current weather 
+          and daily weather forecast for a selected city.
+        </p>
+        <ul class='tech-used'>
+          <li>Ruby</li>
+          <li>Rspec</li>
+          <li>Telegram bot API</li>
+        </ul>
+        <a href='popup.html#project-three' alt = 'show details'>See Details</a>
+      </div>
+    </div>
+    <div class='project-box'>
+      <div class="inner-box right-margin">
         <h4>Group Our Transportation Mobile App</h4>
         <p>This project entails building a mobile application where a user or group logs all the distances 
-          covered in Kilometer(KM) within a particular period for various means of transportations used.
+          covered in Kilometer(KM) within a particular period for various means of transportations used
         </p>
         <ul class='tech-used'>
           <li>Ruby on Rails</li>
-          <li>HTML5</li>
           <li>CSS3</li>
           <li>Bootstrap4</li>
           <li>Capybara, rspec</li>
           <li>Heroku</li>
         </ul>
-        <a href='' alt = 'show details'>See Details</a>
+        <a href='popup.html#project-four' alt = 'show details'>See Details</a>
       </div>
-    </div>
-    <div class='project-box'>
-      <div class="inner-box">
-        <h4>Online Concert web Page</h4>
-        <p>This project is a front end design of an online music concert. It gives information about a music concert 
-          that will be taken place at a particular city. Participants can read about the program and register.
-        </p>
-        <ul class='tech-used'>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>Bootstrap4</li>
-        </ul>
-        <a href='' alt = 'show details'>See Details</a>
-      </div>
-      <div class='image-box'>
+      <div class='image-box-four'>
+        <img src="images/Group-our-transport.png" alt='Group Our Transportation App' />
       </div>
     </div>
     </section>
@@ -141,7 +143,7 @@
         <p>Contact me if you have a product to build, a feature to implement, a concept or business 
           to be developed. I am always ready and available for discussion</p>
       </div>
-      <form class=''>
+      <form action="https://mailthis.to/emelunna@gmail.com" method="POST">
         <div class='name-box'>
         <input type='text' name='first_name' placeholder='Enter your first name' class='form-control'>
         <input type='text' name='last_name' placeholder='Enter your last name' class='last_name form-control'>
@@ -149,7 +151,7 @@
         <input type='email' name='email' placeholder='Enter your your email' class='email form-control'>
         <textarea placeholder='Enter your message' class='text-box form-control' rows='5'></textarea>
         <div class='submit-box'>
-         <button type='submit' class='submit-btn'>Submit</button>
+          <input type="submit" value="Send Email">
         </div>
       </form>
     </section>

@@ -1,4 +1,5 @@
-body, html {
+body, 
+html {
   padding: 0;
   margin: 0;
 }
@@ -15,7 +16,7 @@ section {
 }
 
 .navbar-expand-md {
-  font-family: Roboto;
+  font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1.2rem;
@@ -35,19 +36,19 @@ nav {
 }
 
 .navbar-brand {
-  font-family: Roboto;
+  font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
 }
 
 .my-name,
 .my-intro {
   width: 32.35rem;
   margin: 0 auto;
-  color:#fff;
+  color: #fff;
 }
 
 .my-intro {
   margin-top: 1rem;
-  font-family: Roboto;
+  font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
   font-weight: normal;
   font-size: 1.25rem;
   line-height: 2rem;
@@ -56,7 +57,7 @@ nav {
 
 .my-name {
   margin-top: 5rem;
-  font-family: Roboto;
+  font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
 }
 
 .skill-box {

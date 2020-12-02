@@ -9,7 +9,7 @@ body {
 }
 
 section {
-  width: 80vw;
+  width: 64.7rem;
   margin: 0 auto;
   padding: 0;
 }
@@ -23,27 +23,24 @@ section {
   padding-top: 1rem;
   position: fixed;
   top: 0;
-  right: 7vw;
 }
 
 nav {
-  width: 80vw;
+  width: 100%;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+  background-color: #191765;
 }
 
 .navbar-brand {
-  color: #b3bac5;
   font-family: Roboto;
-  padding: 0;
-}
-
-nav li a {
-  color: #fff;
-  background: #191765;
 }
 
 .my-name,
 .my-intro {
-  width: 40vw;
+  width: 32.35rem;
   margin: 0 auto;
   color:#fff;
 }
@@ -63,7 +60,7 @@ nav li a {
 }
 
 .skill-box {
-  width: 30vw;
+  width: 24.26rem;
   margin: 0 auto;
 }
 
@@ -87,6 +84,10 @@ nav li a {
   display: flex;
   color: #fff;
   flex-direction: column;
+}
+
+.work-mobile {
+  display: none;
 }
 
 .my-work h3 {
@@ -143,7 +144,7 @@ nav li a {
 }
 
 .inner-box p {
-  width: 45vw;
+  width: 36.4rem;
   color: #b3bac5;
   font-size: 1.1rem;
   font-family: Roboto;
@@ -224,7 +225,7 @@ form {
 #project-three,
 #project-four {
   display: none;
-  width: 80%;
+  width: 60%;
   margin: 3rem auto;
   background:rgba(255, 255, 255, 0.16);
   padding: 0 2rem 2rem 2rem;
@@ -262,7 +263,7 @@ form {
 }
 
 .pop-inner-box {
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
   text-align: center;
   color: #fff;
@@ -342,13 +343,21 @@ form {
   display: none;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 767.9px) {
+@media only screen and (min-width: 280px) and (max-width: 767.9px) {
   section {
-    width: 90vw;
+    width: 25rem;
   }
 
   .my-work {
     display: none;
+  }
+
+  .my-work-desk {
+    display: none;
+  }
+
+  .work-mobile {
+    display: block;
   }
 
   .my-work-mobile {
@@ -362,29 +371,16 @@ form {
 
   nav {
     background: #191765;
-    /* width: 90vw; */
-  }
-
-  .navbar-toggler {
-    background: #edecff;
-  }
-
-  .navbar-toggler-icon {
-    background: #9390ff;
   }
 
   .my-name,
   .my-intro {
-    width: 90vw;
-    /* margin-left: 5rem; */
-  }
-
-  ul li a {
-    font-size: 1rem;
+    width: 25rem;
+    margin-left: 2rem;
   }
 
   .my-intro p {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .my-name h1 {
@@ -394,6 +390,7 @@ form {
 
   .my-name h3 {
     font-size: 1.3rem;
+    color: #fff;
   }
 
   .blur-circle-one,
@@ -405,10 +402,19 @@ form {
     filter: blur(1rem);
   }
 
+  .blur-circle-two {
+    top: 30rem;
+    left: 25rem;
+  }
+
+  .blur-circle-five {
+    left: 22rem;
+  }
+
   .skill-box {
-    width: 70vw;
-    /* margin-left: 7rem; */
-    /* text-align: cen3remter; */
+    width: 20rem;
+    margin-left: 5rem;
+    text-align: center;
   }
 
   .skill-box h3 {
@@ -427,40 +433,127 @@ form {
     font-size: 0.8rem;
   }
 
-  .inner-box p {
-    text-align: center;
-    width: 80vw;
-    margin: 0 auto;
+  .middle-icon {
+    margin-top: 0;
   }
 
-  .inner-box,
+  .inner-box h4 {
+    margin: 2rem 0.4rem 2rem 1.6rem;
+    color: #fff;
+  }
+
+  .inner-box {
+    width: 25rem;
+  }
+
+  .inner-box p {
+    width: 25rem;
+    margin-left: 1.6rem;
+    font-size: 1.2rem;
+  }
+
+  .inner-box a {
+    margin-left: 1.6rem;
+  }
+
   .tech-used {
-    /* text-align: center; */
+    flex-direction: row;
+    margin-left: 1.6rem;
   }
 
   .my-work-mobile h3 {
     text-align: left;
     color: #fff;
     margin-top: 2rem;
+    margin-left: 1.6rem;
     font-size: 1.5rem;
   }
 
   .contact-message {
-    width: 60vw;
-    margin: 0 auto;
+    width: 25rem;
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
   }
 
-  form {
-    width: 20rem;
+  .submit-box {
+    margin-bottom: 1rem;
   }
 
   .project-box img {
-    width: 28rem;
+    width: 26rem;
     height: 15rem;
-    text-align: center;
-    /* margin-left: 4rem; */
+    margin-left: 1.8rem;
   }
+
+  .contact-me h4 {
+    margin-left: 5rem;
+  }
+
+  form {
+    width: 25rem;
+    margin-left: 2rem;
+  }
+
+  /* mobile pop up */
+
+  #project-one,
+  #project-two,
+  #project-three,
+  #project-four {
+    width: 16rem;
+    padding: 0;
+  }
+  
+  #pop-up-section img {
+    width: 14rem;
+    margin-left: 1rem;
+  }
+
+  #pop-up-section h4 {
+    font-size: 1rem;
+    color: #fff;
+    margin-left: 0.7rem;
+  }
+
+  .close {
+    padding: 0.4rem;
+  }
+
+  .image-box-one,
+  .image-box-two,
+  .image-box-three,
+  .image-box-four {
+    width: 14rem;
+    height: 13rem;
+    object-fit: cover;
+  }
+
+  .pop-inner-box {
+    width: 13rem;
+    padding-top: 0;
+  }
+
+  .pop-tech-used {
+    flex-direction: row;
+    font-size: 0.8rem;
+    line-height: 0.5rem;
+  }
+
+  .live-button {
+    flex-direction: column;
+    width: 8rem;
+    padding-bottom: 2rem;
+  }
+
+  .live-button a {
+    margin-bottom: 1rem;
+  }
+
 }
+
+
+
+
 
 
  

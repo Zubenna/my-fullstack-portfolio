@@ -10,26 +10,29 @@
     <title>Nnamdi Profile</title>
   </head>
   <body>
-  <nav class="navbar navbar-expand-md">
-    <a class="navbar-brand" href="index.html">Zubenna</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link active" href="#about-me">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#my-work">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact-me">Contact</a>
-        </li>
-      </ul>
-    </div>  
-  </nav>
-  <main>
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <a class="navbar-brand" href="#">Zubenna</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">About</a>
+          </li>
+          <li class="nav-item my-work-desk">
+            <a class="nav-link" href="#my-work">Projects</a>
+          </li>
+          <li class="nav-item work-mobile">
+            <a class="nav-link" href="#my-work-mobile">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-me">Contact</a>
+          </li>
+        </ul>
+      </div>  
+    </nav>
+    <main>
     <section class='about-me' id='about-me'>
         <div class="blur-circle-one"></div>
         <div class='my-name text-center'>
@@ -147,7 +150,7 @@
       </div>
     </div>
     </section>
-    <section class="my-work-mobile">
+    <section class="my-work-mobile" id="my-work-mobile">
      <h3>My Recent Projects</h3>
      <div class='project-box'>
        <div class="image-box-one">
@@ -204,7 +207,7 @@
       <div class='image-box-four'>
         <img src="images/Group-our-transport.png" alt='Group Our Transportation App' />
       </div>
-      <div class="inner-box">
+      <div class="inner-box" id="skill-list">
         <h4>Group Our Transportation Mobile App</h4>
         <p>This project entails building a mobile application where a user or group logs all the distances 
           covered in Kilometer(KM) within a particular period for various means of transportations used
@@ -213,7 +216,7 @@
           <li>Ruby on Rails</li>
           <li>CSS3</li>
           <li>Bootstrap4</li>
-          <li>Capybara, rspec</li>
+          <li>Capybara</li>
           <li>Heroku</li>
         </ul>
         <a href='popup.html#project-four' alt = 'show details'>See Details</a>
@@ -221,18 +224,18 @@
     </div>
     </section>
     <section class='contact-me' id='contact-me'>
-      <h4 class='text-center'>Let's Chat</h4>
+      <h4 class='submit-box'>Let's Chat</h4>
       <div class='contact-message text-center'>
         <p>Contact me if you have a product to build, a feature to implement, a concept or business 
           to be developed. I am always ready and available for discussion</p>
       </div>
-      <form action="https://mailthis.to/emelunna@gmail.com" method="POST">
+      <form action="https://mailthis.to/zubenna" method="POST" encType="multipart/form-data">
         <div class='name-box'>
-        <input type='text' name='first_name' placeholder='Enter your first name' class='form-control'>
-        <input type='text' name='last_name' placeholder='Enter your last name' class='last_name form-control'>
+        <input type='text' name='name' placeholder='Enter your first name' class='form-control'>
+        <input type='text' name='name' placeholder='Enter your last name' class='last_name form-control'>
         </div>
-        <input type='email' name='email' placeholder='Enter your your email' class='email form-control'>
-        <textarea placeholder='Enter your message' class='text-box form-control' rows='5'></textarea>
+        <input type='email' name='_replyto' placeholder='Enter your your email' class='email form-control'>
+        <textarea name='message' placeholder='Enter your message' class='text-box form-control' rows='5'></textarea>
         <div class='submit-box'>
           <input type="submit" value="Send Email">
         </div>

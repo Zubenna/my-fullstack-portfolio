@@ -9,10 +9,9 @@ body {
   background: #191765;
 }
 
-section {
-  width: 64.7rem;
+.section-set {
+  width: 64rem;
   margin: 0 auto;
-  padding: 0;
 }
 
 .navbar-expand-md {
@@ -352,8 +351,12 @@ form {
 }
 
 @media only screen and (min-width: 280px) and (max-width: 767.9px) {
-  section {
-    width: 25rem;
+  .section-set {
+    width: 30rem;
+  }
+
+  .my-name {
+    margin-top: 2.6rem;
   }
 
   .my-work {
@@ -384,16 +387,15 @@ form {
   .my-name,
   .my-intro {
     width: 25rem;
-    margin-left: 2rem;
   }
 
   .my-intro p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .my-name h1 {
-    font-size: 2.3rem;
-    padding-top: 2rem;
+    font-size: 2.2rem;
+    padding-top: 1.8rem;
   }
 
   .my-name h3 {
@@ -443,10 +445,11 @@ form {
 
   .middle-icon {
     margin-top: 0;
+    align-content: center;
   }
 
   .inner-box h4 {
-    margin: 2rem 0.4rem 2rem 1.6rem;
+    margin: 1.8rem 0 2rem 1.7rem;
     color: #fff;
   }
 
@@ -456,17 +459,17 @@ form {
 
   .inner-box p {
     width: 25rem;
-    margin-left: 1.6rem;
+    margin-left: 1.8rem;
     font-size: 1.2rem;
   }
 
   .inner-box a {
-    margin-left: 1.6rem;
+    margin-left: 1.7rem;
   }
 
   .tech-used {
     flex-direction: row;
-    margin-left: 1.6rem;
+    margin-left: 1.7rem;
   }
 
   .my-work-mobile h3 {
@@ -474,12 +477,11 @@ form {
     color: #fff;
     margin-top: 2rem;
     margin-left: 1.6rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 
   .contact-message {
     width: 25rem;
-    margin-left: 1.5rem;
     font-size: 1.3rem;
   }
 
@@ -490,16 +492,11 @@ form {
   .project-box img {
     width: 26rem;
     height: 15rem;
-    margin-left: 1.8rem;
-  }
-
-  .contact-me h4 {
-    margin-left: 5rem;
+    margin-left: 2rem;
   }
 
   form {
     width: 25rem;
-    margin-left: 2rem;
   }
 
   /* mobile pop up */
@@ -520,7 +517,6 @@ form {
   #pop-up-section h4 {
     font-size: 1rem;
     color: #fff;
-    margin-left: 0.7rem;
   }
 
   .close {
@@ -561,6 +557,7 @@ form {
 @media only screen and (min-width: 768px) and (max-width: 991.9px) {
   .about-me {
     padding-top: 4rem;
+    margin-left: 4rem;
   }
 
   .image-box-one img,
@@ -569,6 +566,10 @@ form {
   .image-box-four img {
     width: 24rem;
     height: 15rem;
+  }
+
+  .my-work {
+    margin-left: 5rem;
   }
 
   .my-work h3 {
@@ -589,9 +590,12 @@ form {
     margin: 0;
   }
 
-  .contact-me,
+  .contact-me {
+    margin-left: 3rem;
+  }
+
   .md-icon {
-    margin-left: 15rem;
+    margin-left: 16.5rem;
   }
 
   .live-button {
@@ -600,8 +604,9 @@ form {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
-  section {
-    width: 60rem;
+  .section-set {
+    width: 64rem;
+    padding: 0 4rem 1rem 2rem;
   }
 
   .right-margin {
@@ -612,7 +617,7 @@ form {
   .image-box-two img,
   .image-box-three img,
   .image-box-four img {
-    width: 22rem;
+    width: 20rem;
   }
 
   .live-button {

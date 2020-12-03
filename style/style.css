@@ -2,6 +2,7 @@ body,
 html {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -46,27 +47,25 @@ nav {
 }
 
 .my-intro {
-  margin-top: 1rem;
   font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
   font-weight: normal;
   font-size: 1.25rem;
-  line-height: 2rem;
+  line-height: 1.7rem;
   color: #b3bac5;
 }
 
 .my-name {
-  margin-top: 5rem;
   font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
 }
 
 .skill-box {
-  width: 24.26rem;
+  width: 23rem;
   margin: 0 auto;
 }
 
 .skill h3 {
   color: #9390ff;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 1.6rem;
   line-height: 1.7rem;
 }
@@ -91,9 +90,9 @@ nav {
 }
 
 .my-work h3 {
-  margin-top: 3rem;
+  margin-top: 1rem;
   font-size: 2rem;
-  line-height: 1.7rem;
+  line-height: 1.5rem;
   color: #9390ff;
 }
 
@@ -234,7 +233,7 @@ form {
 .social-icon {
   width: 30rem;
   height: 3rem;
-  margin: 2rem auto 0 auto;
+  margin: 0 auto 0 auto;
   display: flex;
   justify-content: center;
 }
@@ -319,31 +318,31 @@ form {
 .blur-circle-two,
 .blur-circle-four,
 .blur-circle-five {
-  position: absolute;
+  position: relative;
   background: #edecff;
-  width: 8rem;
-  height: 8rem;
+  width: 5rem;
+  height: 5rem;
   filter: blur(2rem);
 }
 
 .blur-circle-one {
-  left: 4rem;
-  top: 2rem;
+  left: 6rem;
+  top: 3rem;
 }
 
 .blur-circle-two {
-  right: 5rem;
-  top: 15rem;
+  left: 65rem;
+  bottom: 10rem;
 }
 
 .blur-circle-four {
-  bottom: 30rem;
-  left: 3rem;
+  left: 65rem;
+  top: 30rem;
 }
 
 .blur-circle-five {
-  bottom: 3rem;
-  right: 4rem;
+  top: 10rem;
+  left: 4rem;
 }
 
 .my-work-mobile {
@@ -356,7 +355,7 @@ form {
   }
 
   .my-name {
-    margin-top: 2.6rem;
+    margin-top: 1.5rem;
   }
 
   .my-work {
@@ -403,22 +402,26 @@ form {
     color: #fff;
   }
 
-  .blur-circle-one,
   .blur-circle-two,
-  .blur-circle-four,
+  .blur-circle-four {
+    display: none;
+  }
+
+  .blur-circle-one,
   .blur-circle-five {
     width: 3rem;
     height: 3rem;
     filter: blur(1rem);
   }
 
-  .blur-circle-two {
-    top: 30rem;
-    left: 25rem;
+  .blur-circle-one {
+    top: 4rem;
+    left: 2rem;
   }
 
   .blur-circle-five {
-    left: 22rem;
+    left: 21rem;
+    top: 183rem;
   }
 
   .skill-box {
@@ -598,6 +601,18 @@ form {
     margin-left: 16.5rem;
   }
 
+  .blur-circle-one {
+    top: 6rem;
+  }
+  
+  .blur-circle-two {
+    left: 59rem;
+  }
+  
+  .blur-circle-four {
+    left: 59rem;
+  }
+  
   .live-button {
     width: 90%;
   }
@@ -611,6 +626,18 @@ form {
 
   .right-margin {
     margin-right: 1.5rem;
+  }
+
+  .blur-circle-one {
+    top: 8rem;
+  }
+  
+  .blur-circle-two {
+    left: 54rem;
+  }
+  
+  .blur-circle-four {
+    left: 54rem;
   }
 
   .image-box-one img,

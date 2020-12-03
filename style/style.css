@@ -604,7 +604,7 @@ form {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
-  .section-set  {
+  .section-set {
     width: 64rem;
     padding: 0 4rem 1rem 2rem;
   }

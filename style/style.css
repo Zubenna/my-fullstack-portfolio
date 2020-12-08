@@ -75,10 +75,6 @@ nav {
   font-size: 3.5rem;
 }
 
-.my-name h2 {
-  margin-top: 1.5rem;
-}
-
 .skill {
   display: flex;
   color: #fff;
@@ -125,7 +121,7 @@ nav {
 .inner-box a {
   height: 2rem;
   width: 8rem;
-  background-color: #9390ff;
+  background-color: #2e2e2e;
   padding: 0.4rem;
   font-size: 1.2rem;
   font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
@@ -215,7 +211,7 @@ form {
 }
 
 .submit-box input {
-  background: #9390ff;
+  background: #2e2e2e;
   color: #fff;
 }
 
@@ -397,8 +393,8 @@ form {
     padding-top: 1.8rem;
   }
 
-  .my-name h3 {
-    font-size: 1.3rem;
+  .my-name h2 {
+    font-size: 1.4rem;
     color: #fff;
   }
 
@@ -575,7 +571,7 @@ form {
     margin-left: 5rem;
   }
 
-  .my-work h3 {
+  .my-work h2 {
     padding-top: 7rem;
     padding-left: 2rem;
   }

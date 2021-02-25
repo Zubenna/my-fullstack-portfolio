@@ -45,7 +45,7 @@ cd my-fullstack-portfolio
 
 ## Live Version
 Launch Live Version Below;
-- [Launch App](https://zubenna.github.io/my-fullstack-portfolio-index.html/)
+- [Launch App](https://compassionate-shannon-a3d7d8.netlify.app/)
 
 ## Built With
 - HTML

@@ -32,7 +32,7 @@ nav {
 
 .navbar .navbar-nav .nav-link {
   color: #fff;
-  background-color: #191765;
+  /* background-color: #191765; */
 }
 
 .navbar-brand {
@@ -95,7 +95,9 @@ nav {
 .image-box-one img,
 .image-box-two img,
 .image-box-three img,
-.image-box-four img {
+.image-box-four img,
+.image-box-five img,
+.image-box-six img {
   width: 25rem;
   height: 15rem;
   object-fit: scale-down;
@@ -241,7 +243,9 @@ form {
 #project-one,
 #project-two,
 #project-three,
-#project-four {
+#project-four,
+#project-five,
+#project-six {
   display: none;
   width: 60%;
   margin: 3rem auto;
@@ -254,7 +258,9 @@ form {
 #project-one:target,
 #project-two:target,
 #project-three:target,
-#project-four:target {
+#project-four:target,
+#project-five:target,
+#project-six:target {
   display: block;
 }
 
@@ -274,7 +280,9 @@ form {
 #project-one img,
 #project-two img,
 #project-three img,
-#project-four img {
+#project-four img,
+#project-five img,
+#project-six img  {
   width: 100%;
   height: 17rem;
   object-fit: scale-down;
@@ -503,7 +511,9 @@ form {
   #project-one,
   #project-two,
   #project-three,
-  #project-four {
+  #project-four,
+  #project-five,
+  #project-six {
     width: 16rem;
     padding: 0;
   }
@@ -525,7 +535,9 @@ form {
   .image-box-one,
   .image-box-two,
   .image-box-three,
-  .image-box-four {
+  .image-box-four,
+  .image-box-five,
+  .image-box-six {
     width: 14rem;
     height: 13rem;
     object-fit: cover;
@@ -562,7 +574,9 @@ form {
   .image-box-one img,
   .image-box-two img,
   .image-box-three img,
-  .image-box-four img {
+  .image-box-four img,
+  .image-box-five img,
+  .image-box-six img {
     width: 24rem;
     height: 15rem;
   }
@@ -639,7 +653,9 @@ form {
   .image-box-one img,
   .image-box-two img,
   .image-box-three img,
-  .image-box-four img {
+  .image-box-four img,
+  .image-box-five img,
+  .image-box-six img {
     width: 20rem;
   }
 
